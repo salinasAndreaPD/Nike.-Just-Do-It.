@@ -1,0 +1,870 @@
+body{
+	margin:0;
+	font-family:Arial, sans-serif;
+	background-color:#f3f4f6;
+}
+
+#top-bar{
+	background-color:#f5f5f5;
+	padding:5px 0;
+}
+
+.bloque-de-arriba{
+	padding:5px 0;
+	align-items:center;
+}
+
+.mini-iconos img{
+	width:40px;
+	height:40px;
+	margin-right:10px;
+	padding-left:-40px;
+	text-align:left;
+}
+
+.links-de-arriba{
+	text-align: right;
+}
+
+.links-de-arriba a{
+	color:#000;
+	text-decoration:none;
+	font-size:12px;
+	margin-left:15px;
+}
+
+.navbar{
+	background-color:#fff;
+	padding:15px 0;
+}
+
+.navbar-brand img{
+	width:90px;
+}
+
+.navbar-nav .nav-link{
+	font-size:16px;
+	font-weight:600;
+	margin:0 15px;
+	text-align: center;
+}
+
+
+form{
+	/*margin-left:-300px;
+	margin-right:-300px;*/
+}
+
+form input{
+	background:#f5f5f5;
+	border-radius:30px;
+	border:none;
+	width:100%;
+	padding: 10px 20px;
+}
+
+.nav-link img{
+	width:30px;
+	height:30px;
+}
+
+#hero{
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.fondo_home{
+	background-image: url("../img/justdoit.jpg");
+}
+
+.fondo_sport{
+	background-image: url("../img/fondo_sport.jpg");
+}
+
+.fondo_men{
+	background-image:url("../img/fondo_men.jpg")
+}
+
+.fondo_women{
+	background-image: url("../img/fondo_women.jpg")
+}
+
+.fondo_jordan{
+	background-image:url("../img/fondo_jordan.jpg");
+}
+
+.hero-texto-men{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:120px;
+	left:0;
+}
+
+
+.hero-texto-sport{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:120px;
+	left:0;
+}
+
+.hero-texto-men p{
+	color:#fff;
+	font-size:12px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+
+.hero-texto-men h1{
+	color:#fff;
+	font-size:50px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:25px;
+}
+
+.hero-texto-men .btn-light{
+	padding:7px 18px;
+	font-size:14px;
+}
+
+.hero-texto-women p{
+	color:#fff;
+	font-size:12px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+
+.hero-texto-women h1{
+	color:#fff;
+	font-size:50px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:25px;
+}
+
+.hero-texto-women .btn-light{
+	padding:7px 18px;
+	font-size:14px;
+}
+
+.hero-texto-sport p{
+	color:#fff;
+	font-size:12px;
+	font-weight:600;
+	margin-bottom:5px;
+}
+
+.hero-texto-sport h1{
+	color:#fff;
+	font-size:50px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:10px;
+}
+
+
+.hero-texto{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:180px;
+	left:0;
+}
+
+.hero-texto h1{
+	color:#fff;
+	font-size:90px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:20px;
+}
+.hero-texto p{
+	color:#fff;
+	font-size:20px;
+	margin-bottom:25px;
+}
+
+.btn-light{
+	background-color:#fff;
+	border:none;
+	border-radius:30px;
+	padding:15px 25px;
+	font-weight:bold;
+	color:#000;
+}
+
+.btn-light:hover{
+	background-color:#ddd;
+}
+
+#promos{
+	padding: 0px;
+	background-color:#fff;
+}
+
+.promo-air{
+	background-image:url("../img/promo_air.jpg");
+	background-size:cover;
+	background-position:center;
+	height:650px;
+	position:relative;
+}
+
+.promo-tennis{
+	background-image:url("../img/promo_tennis.jpg");
+	background-size:cover;
+	background-position:center;
+	height:650px;
+	position:relative;
+}
+
+.texto-promo{
+	position:absolute;
+	left:40px;
+	bottom:40px;
+	color:#fff;
+}
+
+.texto-promo p{
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:8px;
+}
+
+.texto-promo h2{
+	font-size:40px;
+	font-weight:700;
+	margin-bottom:20px;
+}
+
+#sport{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.sport-football{
+	background-image:url("../img/football_nike.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.sport-basketball{
+	background-image:url("../img/basketball_nike.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.sport-running{
+	background-image:url("../img/running.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.sport-texto{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+
+.sport-texto .btn-light{
+	background-color:#fff;
+	color:#000;
+	border:0;
+	border-radius:30px;
+	padding:8px 20px;
+	font-size: 14px;
+	font-weight:600;
+	transition:0.3s;
+	margin-top:15px;
+}
+
+.sport-texto .btn-light:hover{
+	background-color:#d9d9d9;
+	color:#000;
+}
+
+.basketball{
+	background-image:url("../img/sport_basketball.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.running{
+	background-image:url("../img/sport_running.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.football{
+	background-image:url("../img/sport_football.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.sport-info{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+
+.sport-info .btn-light{
+	background-color:#fff;
+	color:#000;
+	border:0;
+	border-radius:30px;
+	padding:8px 20px;
+	font-size:14px;
+	font-weight:600;
+	transition:0.3s;
+}
+
+.sport-info .btn-light:hover{
+	background-color:#d9d9d9;
+	color:#000;
+}
+
+#nike-video{
+	background-color:#fff;
+	padding-top:0%;
+}
+
+.video-soccer{
+	position:relative;
+}
+
+.video-soccer video{
+	width:100%;
+	height:850px;
+	object-fit:cover;
+	display:block;
+}
+
+.video-texto{
+	position:absolute;
+	bottom:30px;
+	left:50px;
+}
+
+.video-texto h4{
+	color:#fff;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#destacados{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.new-arrivals{
+	background-image:url("../img/new_arrivals.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+.best-sellers{
+	background-image:url("../img/mas_vendidos.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+.latest-drops{
+	background-image:url("../img/latest_drop.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+.producto-info{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+
+.producto-info h3{
+	color:#000;
+	font-size:15px;
+	font-weight:normal;
+}
+
+#trending{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.titulo-seccion{
+	font-size:23px;
+	font-weight:500;
+	margin-bottom:25px;
+	padding-left:20px;
+	font-weight:bold;
+}
+
+.all-conditions{
+	background-image:url("../img/all_conditions_men.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.metcon{
+	background-image:url("../img/your_training_men.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.trending-texto{
+	position:absolute;
+	left:50px;
+	bottom:50px;
+	color:#fff;
+}
+
+.trending-texto p{
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+
+.trending-texto h2{
+	font-size:24px;
+	font-weight:500;
+	margin-bottom:20px;
+}
+
+.trending-texto .btn-light{
+	background-color:#fff;
+	color:#000;
+	border:0;
+	border-radius:30px;
+	padding:8px 20px;
+	font-size:14px;
+	font-weight:600;
+	transition:0.3s;
+}
+
+.trending-texto .btn-light:hover{
+	background-color:#d9d9d9;
+	color:#000;
+}
+
+.hero-texto-women{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:120px;
+	left:0;
+}
+
+#destacados_women{
+	padding:2% 0;
+	background-color:#fff;
+}
+
+.new-arrivals_women{
+	background-image:url("../img/new_arrivals_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+.best-sellers_women{
+	background-image:url("../img/best_sellers_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+.summer_essentials{
+	background-image:url("../img/summer_essencial_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:500px;
+	position:relative;
+}
+
+#trending_now{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.ultimate_soccer{
+	background-image:url("../img/ultimate_soccer_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.young_miko{
+	background-image:url("../img/young_miko_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+
+.women-info{
+	position:absolute;
+	left:30px;
+	bottom:30px;
+}
+
+.women-info h3{
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+}
+
+.hero-texto-jordan{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:120px;
+	left:0;
+}
+
+.hero-texto-jordan p{
+	color:#fff;
+	font-size:15px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+
+.hero-texto-jordan h1{
+	color:#fff;
+	font-size:50px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:20px;
+}
+
+.hero-texto-jordan .btn-light{
+	padding:7px 18px;
+	font-size:14px;
+}
+
+#jordan_gear{
+	padding:4% 0;
+	background-color:#FFFFFF;
+}
+
+.jordan_golf{
+	background-image:url("../img/jordan_golf.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.jordan_trunner{
+	background-image:url("../img/jordan_truner.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+	position:relative;
+}
+
+.jordangear-texto{
+	position:absolute;
+	left:50px;
+	bottom:50px;
+	color:#fff;
+}
+
+.jordangear-texto p{
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:10px;
+}
+
+.jordangear-texto h2{
+	font-size:24px;
+	font-weight:500;
+	margin-bottom:20px;
+}
+
+.jordangear-texto .btn-light{
+	background-color:#fff;
+	color:#000;
+	border:0;
+	border-radius:30px;
+	padding:8px 20px;
+	font-size:14px;
+	font-weight:600;
+	transition:0.3s;
+}
+
+.jordangear-texto .btn-light:hover{
+	background-color:#d9d9d9;
+	color:#000;
+}
+
+#popular_jordan{
+	padding:2% 0;
+	background-color: rgba(255,255,255,1.00);
+}
+
+#popular_jordan .titulo-seccion{
+	color:#000;
+	margin-bottom:20px;
+	font-size:20px;
+	font-weight:900;
+}
+
+.producto-jordan{
+	color:#000;
+}
+
+.producto-jordan img{
+	width:90%;
+	height:450px;
+	display:block;
+	margin-bottom:20px;
+}
+
+.producto-jordan h3{
+	font-size:18px;
+	font-weight:600;
+	margin-bottom:5px;
+}
+
+.producto-jordan p{
+	font-size:14px;
+	color:#373636;
+	margin-bottom:10px;
+}
+
+.producto-jordan h4{
+	font-size:18px;
+	font-weight:bold;
+}
+
+#shop_gender{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.gender-men{
+	background-image:url("../img/jordan_men.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+}
+
+.gender-women{
+	background-image:url("../img/jordan_women.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+}
+
+.gender-kids{
+	background-image:url("../img/jordan_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:700px;
+}
+
+.gender-info{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.gender-info h3{
+	color:#000;
+	font-size:18px;
+	font-weight:bold;
+	margin:0;
+}
+
+#shop_kids{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.kids-arrivals{
+	background-image:url("../img/nike_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:600px;
+}
+
+.kids-sellers{
+	background-image:url("../img/best_sellers_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:600px;
+}
+
+.kids-mercurial{
+	background-image:url("../img/mercurial_superfly_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:600px;
+}
+
+.kids-info{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.kids-info h3{
+	font-size:18px;
+	font-weight:normal;
+	color:#000;
+}
+
+.fondo_kids{
+	background-image:url("../img/nike_soccerxlego_colecction.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+.hero-texto-kids{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	bottom:120px;
+	left:0;
+}
+
+.hero-texto-kids h1{
+	color:#fff;
+	font-size:50px;
+	font-weight:900;
+	line-height:1;
+	margin-bottom:10px;
+}
+
+.hero-texto-kids p{
+	color:#fff;
+	font-size:14px;
+	font-weight:600;
+	margin-bottom:20px;
+}
+
+.hero-texto-kids .btn-light{
+	padding:8px 20px;
+	font-size:14px;
+}
+
+#must_haves{
+	padding:4% 0;
+	background-color:#fff;
+}
+
+.graphic-tees{
+	background-image:url("../img/graphics_tees_nike.jpg");
+	background-size:cover;
+	background-position:center;
+	height:550px;
+}
+
+.kids-shorts{
+	background-image:url("../img/shorts_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:550px;
+}
+
+.kids-hoodies{
+	background-image:url("../img/hoodies_kids.jpg");
+	background-size:cover;
+	background-position:center;
+	height:550px;
+}
+
+.must-info{
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+.must-info h3{
+	color:#000;
+	font-size:18px;
+	font-weight:normal;
+}
+
+.footer{
+	padding:4% 0;
+	text-align:center;
+}
+
+.footer-menu{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.footer-menu li{
+	display:inline-block;
+	margin:0 15px;
+}
+
+.footer-menu li a{
+	color:#6b7280;
+	font-size:14px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.footer-menu li a:hover{
+	color:#000;
+}
+
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
